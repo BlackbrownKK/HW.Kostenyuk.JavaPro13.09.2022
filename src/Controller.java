@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 public class Controller {
 
+
     public static void getBooksToCurrentSalePrise(List<Product> productsInShop) {
 
         productsInShop
@@ -36,7 +37,6 @@ public class Controller {
                 .orElseThrow(NoSuchElementException::new);
         System.out.println(productWithMinPrice);
     }
-
 
     public static void getThreeFinalAddedProducts(List<Product> productsInShop) {
         productsInShop

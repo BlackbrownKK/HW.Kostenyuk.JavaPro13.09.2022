@@ -16,7 +16,7 @@ public class AppShop {
         Controller.findMinPriceOfBooks(productsInShop);
         System.out.println("-----------------------------------");
 
-        System.out.println("Find 3 now books:");
+        System.out.println("Find 3 now books: ");
         Controller.getThreeFinalAddedProducts(productsInShop);
         System.out.println("-----------------------------------");
 

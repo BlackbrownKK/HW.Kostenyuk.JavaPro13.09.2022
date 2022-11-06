@@ -3,6 +3,7 @@ import java.util.List;
 
 public class StockOfProducts {
 
+
     public static List<Product> getProducts() {
 
         LocalDate data1 = LocalDate.of(2021, 9, 3);
